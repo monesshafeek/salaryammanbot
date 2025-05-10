@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [project]
 name = "salaryammanbot"
 version = "0.1.0"
@@ -13,3 +14,20 @@ dependencies = ["aiogram (>=3.20.0.post0,<4.0.0)", "openpyxl (>=3.1.5,<4.0.0)"]
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+=======
+[project]
+name = "salaryammanbot"
+version = "0.1.0"
+description = "electricity calculator by mones shafeek"
+authors = [
+    {name = "monesshafeek"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11,<3.14"  # تأكد من هذا السطر
+dependencies = ["aiogram (>=3.20.0.post0,<4.0.0)", "openpyxl (>=3.1.5,<4.0.0)"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+>>>>>>> d713af053bd9520d33e3109f4e2df17c77498463
