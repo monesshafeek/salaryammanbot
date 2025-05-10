@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 # دالة بدء المحادثة
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("عمك الشيخ مؤنس بحسب، أدخل القراءتين (القديمة والجديدة) بينهما سطر جديد.")
+    await update.message.reply_text("ليتم حساب فاتورتك، أدخل القراءتين (القديمة والجديدة) بينهما سطر جديد.")
 
 # دالة الحساب
 async def calculate(update: Update, context: ContextTypes.DEFAULT_TYPE):
